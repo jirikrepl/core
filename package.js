@@ -21,17 +21,12 @@ Package.onUse(function(api) {
     'blaze',
     'reactive-dict',
     'templating',
-    'jquery',
-    'ecmascript'
+    'jquery'
   ], 'client');
 
   api.use([
     'http'
   ], 'server');
-
-  Npm.depends({
-      'fake-identity': '1.0.6'
-  });
 
   api.imply([
     'accounts-base',
