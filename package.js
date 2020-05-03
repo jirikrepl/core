@@ -11,6 +11,7 @@ Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0.3');
 
   api.use([
+    'ecmascript',
     'accounts-base',
     'check',
     'underscore',
