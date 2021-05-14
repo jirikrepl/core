@@ -21,8 +21,9 @@ Package.onUse(function(api) {
     'blaze',
     'reactive-dict',
     'templating',
-    'jquery'
   ], 'client');
+
+  api.use("jquery", "client", { weak: true });
 
   api.use([
     'http'
